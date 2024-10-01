@@ -9,22 +9,25 @@
 
     <!-- This Header shouhld be used on all views/pages/whatever 
      contains the title, subtitle, and a trio of nav buttons-->
+
 <header>
+    <!-- This header shouldn't change... me thinks -->
         <h2>F1 DASHBOARD PROJECT</h2>
         <p> Assignment #1 For COMP 3512 <br>
             Mount Royal University</p>
             <button>HOME</button>
-            <a href="./viewers/index.php" ><button>HOME</button></a>
-            <a href="./viewers/browse.php"><button>BROWSE</button></a>
-            <a href="./viewers/API.php"><button>APIs</button></a>
+            <a href="./viewers/index.php" ><button type="submit">HOME</button></a>
+            <a href="./viewers/browse.php"><button type="submit">BROWSE</button></a>
+            <a href="./viewers/API.php"><button type="submit">APIs</button></a>
 </header>
 
 <!-- This is where I'll have the api output tables of information -->
     <main class="right-box">
+<!-- use ref=XXX to load correct API information into main -->
 
         <h2>Title Blocks</h2>
-    <p>Insert graphics or textblocks here</p>
-<img src="" alt="image text">
+        <p>Insert graphics or textblocks here</p>
+        <img src="" alt="image text">
 
 
 
@@ -34,7 +37,7 @@
     <!-- Where there will be a gen'd list of races, racers, idk life stats -->
     <aside class="left-box">
         <p>Provide that block of text here on the side, along with some functional javascriptless buttons</p> <br>
-        <a href="./viewers/browse.php"><button>BROWSE</button></a>
+        <a href="./viewers/browse.php"><button type="submit">BROWSE</button></a>
      </aside>
 
 </body>
